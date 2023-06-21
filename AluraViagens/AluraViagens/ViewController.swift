@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
 }
 
+// Tabelas:
+
+// número de linhas = 10
+
+// 1 linha =
+// 2 linha =
+// 3 linha = 
