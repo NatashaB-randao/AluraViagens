@@ -13,6 +13,8 @@
 		DE1D0B402A4366EE003A4DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1D0B3E2A4366EE003A4DC9 /* Main.storyboard */; };
 		DE1D0B422A4366F0003A4DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1D0B412A4366F0003A4DC9 /* Assets.xcassets */; };
 		DE1D0B452A4366F0003A4DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1D0B432A4366F0003A4DC9 /* LaunchScreen.storyboard */; };
+		DECE03BF2A45FD3200CEA4C7 /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECE03BE2A45FD3200CEA4C7 /* HomeTableViewHeader.xib */; };
+		DECE03C12A4603BC00CEA4C7 /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECE03C02A4603BC00CEA4C7 /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DE1D0B412A4366F0003A4DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1D0B442A4366F0003A4DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE1D0B462A4366F0003A4DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECE03BE2A45FD3200CEA4C7 /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		DECE03C02A4603BC00CEA4C7 /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DE1D0B412A4366F0003A4DC9 /* Assets.xcassets */,
 				DE1D0B432A4366F0003A4DC9 /* LaunchScreen.storyboard */,
 				DE1D0B462A4366F0003A4DC9 /* Info.plist */,
+				DECE03BE2A45FD3200CEA4C7 /* HomeTableViewHeader.xib */,
+				DECE03C02A4603BC00CEA4C7 /* HomeTableViewHeader.swift */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1D0B452A4366F0003A4DC9 /* LaunchScreen.storyboard in Resources */,
+				DECE03BF2A45FD3200CEA4C7 /* HomeTableViewHeader.xib in Resources */,
 				DE1D0B422A4366F0003A4DC9 /* Assets.xcassets in Resources */,
 				DE1D0B402A4366EE003A4DC9 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1D0B3D2A4366EE003A4DC9 /* ViewController.swift in Sources */,
+				DECE03C12A4603BC00CEA4C7 /* HomeTableViewHeader.swift in Sources */,
 				DE1D0B392A4366EE003A4DC9 /* AppDelegate.swift in Sources */,
 				DE1D0B3B2A4366EE003A4DC9 /* SceneDelegate.swift in Sources */,
 			);
