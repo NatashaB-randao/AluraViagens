@@ -30,11 +30,10 @@
                         <constraint firstAttribute="height" constant="250" id="Eru-7W-agW"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XgR-qt-o2w" userLabel="Banner View">
-                    <rect key="frame" x="20" y="142" width="375" height="130"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XgR-qt-o2w" userLabel="Banner View">
+                    <rect key="frame" x="20" y="130" width="375" height="130"/>
                     <subviews>
-                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wkq-3S-e6t">
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wkq-3S-e6t" userLabel=" View">
                             <rect key="frame" x="0.0" y="0.0" width="200" height="128"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.31764705882352939" green="0.70196078431372544" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,18 +44,23 @@
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="p4e-8V-vol"/>
+                    </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="XgR-qt-o2w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Dlk-Nc-n8u"/>
                 <constraint firstItem="lW5-en-K2w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="QkD-o9-fLG"/>
+                <constraint firstItem="XgR-qt-o2w" firstAttribute="bottom" secondItem="lW5-en-K2w" secondAttribute="bottom" constant="10" id="iTK-4b-kKO"/>
                 <constraint firstItem="lW5-en-K2w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lr2-5s-aJ8"/>
                 <constraint firstItem="lW5-en-K2w" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="qE4-D0-hf9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="XgR-qt-o2w" secondAttribute="trailing" constant="19" id="uqj-Sq-krW"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="bannerView" destination="Wkq-3S-e6t" id="FdV-Mg-1lG"/>
                 <outlet property="bannerimageView" destination="Qo3-zw-Gxy" id="rN1-5g-FrM"/>
                 <outlet property="headerView" destination="lW5-en-K2w" id="OYf-8P-KDR"/>
                 <outlet property="tituloLabel" destination="X4T-81-s1p" id="i3R-Zg-M60"/>
