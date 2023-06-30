@@ -14,9 +14,8 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lW5-en-K2w" userLabel="Header View">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lW5-en-K2w" userLabel="Header View">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alura Viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4T-81-s1p">
                             <rect key="frame" x="23" y="42" width="147" height="33"/>
@@ -27,6 +26,9 @@
                         </label>
                     </subviews>
                     <color key="backgroundColor" red="0.11764705882352941" green="0.23137254901960785" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="Eru-7W-agW"/>
+                    </constraints>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XgR-qt-o2w" userLabel="Banner View">
                     <rect key="frame" x="20" y="142" width="375" height="130"/>
@@ -47,6 +49,11 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="lW5-en-K2w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="QkD-o9-fLG"/>
+                <constraint firstItem="lW5-en-K2w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lr2-5s-aJ8"/>
+                <constraint firstItem="lW5-en-K2w" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="qE4-D0-hf9"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="bannerView" destination="Wkq-3S-e6t" id="FdV-Mg-1lG"/>
