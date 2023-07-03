@@ -15,11 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lW5-en-K2w" userLabel="Header View">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                    <rect key="frame" x="-293" y="0.0" width="1000" height="250"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alura Viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4T-81-s1p">
-                            <rect key="frame" x="23" y="42" width="147" height="33"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alura Viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4T-81-s1p">
+                            <rect key="frame" x="314" y="48" width="372" height="33"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -28,6 +27,8 @@
                     <color key="backgroundColor" red="0.11764705882352941" green="0.23137254901960785" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="250" id="Eru-7W-agW"/>
+                        <constraint firstItem="X4T-81-s1p" firstAttribute="top" secondItem="lW5-en-K2w" secondAttribute="top" constant="48" id="NMm-CE-BaM"/>
+                        <constraint firstAttribute="width" constant="1000" id="NTy-6N-Iip"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XgR-qt-o2w" userLabel="Banner View" customClass="HomeTableViewHeader" customModule="AluraViagens" customModuleProvider="target">
@@ -81,11 +82,12 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="X4T-81-s1p" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="91P-aT-93Z"/>
                 <constraint firstItem="XgR-qt-o2w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Dlk-Nc-n8u"/>
-                <constraint firstItem="lW5-en-K2w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="QkD-o9-fLG"/>
                 <constraint firstItem="XgR-qt-o2w" firstAttribute="bottom" secondItem="lW5-en-K2w" secondAttribute="bottom" constant="10" id="iTK-4b-kKO"/>
                 <constraint firstItem="lW5-en-K2w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lr2-5s-aJ8"/>
-                <constraint firstItem="lW5-en-K2w" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="qE4-D0-hf9"/>
+                <constraint firstItem="lW5-en-K2w" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="nK9-b2-fXB"/>
+                <constraint firstItem="X4T-81-s1p" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="21" id="u4b-Wt-dzy"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="XgR-qt-o2w" secondAttribute="trailing" constant="19" id="uqj-Sq-krW"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
