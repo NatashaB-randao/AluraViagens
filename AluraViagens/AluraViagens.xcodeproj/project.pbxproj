@@ -15,6 +15,8 @@
 		DE1D0B452A4366F0003A4DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1D0B432A4366F0003A4DC9 /* LaunchScreen.storyboard */; };
 		DECE03BF2A45FD3200CEA4C7 /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECE03BE2A45FD3200CEA4C7 /* HomeTableViewHeader.xib */; };
 		DECE03C12A4603BC00CEA4C7 /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECE03C02A4603BC00CEA4C7 /* HomeTableViewHeader.swift */; };
+		DEF54E672A5345C900401907 /* ViagemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF54E652A5345C900401907 /* ViagemTableViewCell.swift */; };
+		DEF54E682A5345C900401907 /* ViagemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF54E662A5345C900401907 /* ViagemTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		DE1D0B462A4366F0003A4DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DECE03BE2A45FD3200CEA4C7 /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
 		DECE03C02A4603BC00CEA4C7 /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
+		DEF54E652A5345C900401907 /* ViagemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemTableViewCell.swift; sourceTree = "<group>"; };
+		DEF54E662A5345C900401907 /* ViagemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViagemTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 			children = (
 				DE1D0B3C2A4366EE003A4DC9 /* ViewController.swift */,
 				DE1D0B3E2A4366EE003A4DC9 /* Main.storyboard */,
+				DEF54E642A53458200401907 /* Cells */,
 				DE32A7592A532411000BD337 /* Header */,
 			);
 			path = View;
@@ -111,6 +116,15 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DEF54E642A53458200401907 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DEF54E652A5345C900401907 /* ViagemTableViewCell.swift */,
+				DEF54E662A5345C900401907 /* ViagemTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +189,7 @@
 				DECE03BF2A45FD3200CEA4C7 /* HomeTableViewHeader.xib in Resources */,
 				DE1D0B422A4366F0003A4DC9 /* Assets.xcassets in Resources */,
 				DE1D0B402A4366EE003A4DC9 /* Main.storyboard in Resources */,
+				DEF54E682A5345C900401907 /* ViagemTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1D0B3D2A4366EE003A4DC9 /* ViewController.swift in Sources */,
+				DEF54E672A5345C900401907 /* ViagemTableViewCell.swift in Sources */,
 				DECE03C12A4603BC00CEA4C7 /* HomeTableViewHeader.swift in Sources */,
 				DE1D0B392A4366EE003A4DC9 /* AppDelegate.swift in Sources */,
 				DE1D0B3B2A4366EE003A4DC9 /* SceneDelegate.swift in Sources */,
