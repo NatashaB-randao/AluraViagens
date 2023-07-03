@@ -30,7 +30,7 @@
                         <constraint firstAttribute="height" constant="250" id="Eru-7W-agW"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XgR-qt-o2w" userLabel="Banner View">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XgR-qt-o2w" userLabel="Banner View" customClass="HomeTableViewHeader" customModule="AluraViagens" customModuleProvider="target">
                     <rect key="frame" x="20" y="130" width="375" height="130"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wkq-3S-e6t" userLabel=" View">
@@ -90,6 +90,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="bannerView" destination="XgR-qt-o2w" id="osy-1l-wBk"/>
                 <outlet property="bannerimageView" destination="Qo3-zw-Gxy" id="rN1-5g-FrM"/>
                 <outlet property="headerView" destination="lW5-en-K2w" id="OYf-8P-KDR"/>
                 <outlet property="tituloLabel" destination="X4T-81-s1p" id="i3R-Zg-M60"/>
