@@ -1,2 +1,2 @@
 # AluraViagens
-Aplicativo de Viagens
+## Aplicativo de Viagens
